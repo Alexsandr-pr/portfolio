@@ -409,25 +409,8 @@
   }
 }
 
-.header-item__title {
-  transform: translate(0px, 120%);
-  opacity: 0;
-  transition: all 0.5s ease 0s;
-}
-.header-item__title._start-anim {
-  transform: translate(0px, 0px);
-  opacity: 1;
-}
 
-.header-item__text {
-  transform: translate(0px, 120%);
-  opacity: 0;
-  transition: all 0.5s ease 0.2s;
-}
-.header-item__text._start-anim {
-  transform: translate(0px, 0px);
-  opacity: 1;
-}
+
 
 .animation-left {
   transform: translate(-120%, 0px);
