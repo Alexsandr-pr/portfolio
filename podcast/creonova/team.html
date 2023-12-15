@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" class="slider">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+	<title>Главная</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+    <div class="header__container">
+        <div class="header__top header-top">
+            <div class="header-top__item">
+                <a class="header-top__link"  href="/">
+                    <p>Join Our Personalized Nutrition Demo For Free</p>
+                    <svg  width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6001 12.0002C3.6001 11.5031 4.00304 11.1002 4.5001 11.1002L17.2656 11.1002L12.2763 6.34894C11.918 6.00443 11.9068 5.43469 12.2513 5.0764C12.5959 4.7181 13.1656 4.70693 13.5239 5.05144L20.1239 11.3514C20.3004 11.5211 20.4001 11.7554 20.4001 12.0002C20.4001 12.245 20.3004 12.4793 20.1239 12.6489L13.5239 18.9489C13.1656 19.2935 12.5959 19.2823 12.2513 18.924C11.9068 18.5657 11.918 17.996 12.2763 17.6514L17.2656 12.9002L4.5001 12.9002C4.00304 12.9002 3.6001 12.4973 3.6001 12.0002Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="header__logo">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width:1280px )" type="image/svg+xml" srcset="img/header/logo-desktop-big.svg">
+                        <source media="(min-width:768px )" type="image/svg+xml" srcset="img/header/logo-desktop-large.svg">
+                        <source media="(min-width:280px )" type="image/svg+xml" srcset="img/header/logo-mobile.svg">
+                        <img src="img/header/logo-desktop-big.svg" alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href='index.html' class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='about.html' class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='team.html' class="menu__link">Team</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='process.html' class="menu__link">Process</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='pricing.html' class="menu__link">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='blog.html' class="menu__link">Blog</a>
+                    </li>
+                </ul>
+                <button class="header__btn">
+                    <a href='contact.html' class="menu__btn button-green ">Contact Us</a>
+                </button>
+            </nav>
+            <div class="icon-menu">
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+</header>
+			<main class="main">
+                <div class="main__block-img main-block-img">
+                    <div class="main-block-img__container">
+                        <div class="main-block-img__body">
+                            <div class="main-block-img__img">
+                                <img src="img/page/page3/icon-top.svg" alt="image">
+                            </div>
+                            <div class='main-block-img__header-item header-item'>
+                                <div class='header-item__title _anim-items'>
+                                    <h2>Meet Our Team of Experts</h2>
+                                </div>
+                                <div class='header-item__text text  _anim-items'>
+                                    <p>Our team at Nutritionist is composed of highly skilled professionals who are passionate about helping you
+                                        achieve your health and wellness goals. With a diverse range of expertise in nutrition, coaching, and
+                                        support, our team is dedicated to providing you with the guidance and personalized care you need. Get to
+                                        know the experts behind our success and discover how they can make a positive impact on your journey to
+                                        better health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <section class="main__tab main-tab ">
+                    <div class="main-tab__container">
+                        <div class="main-tab__body">
+                            <div class="main-tab__trigger trigger">
+                                <div class="trigger__swiper  ">
+                                    <div class="trigger__swiper-wrapper ">
+                                        <div class="trigger__slide">
+                                            <div data-trigger class="trigger__link _active"> Management Team</div>
+                                        </div>
+                                        <div class="trigger__slide  ">
+                                            <div data-trigger class="trigger__link"> Nutritionists and Dietitians</div>
+                                        </div>
+                                        <div class="trigger__slide">
+                                            <div data-trigger class="trigger__link">Customer Support </div>
+                                        </div>
+                                        <div class="trigger__slide">
+                                            <div data-trigger class="trigger__link"> Marketing and Communications</div>
+                                        </div>
+                                        <div class="trigger__slide">
+                                            <div  data-trigger class="trigger__link">Technology and Development </div>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <div data-content class="main-tab__contents _active">
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image01.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Sarah Mitchell</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Founder and CEO 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image02.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Emily Thompson</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Operating Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div   class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image03.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>John Davis</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Financial Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image04.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Rachel Adams</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Marketing Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content class="main-tab__contents">
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image01.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Sarah Mitchell</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Founder and CEO2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image02.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Emily Thompson</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Operating Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div   class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image03.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>John Davis</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Financial Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image04.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Rachel Adams</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Marketing Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content class="main-tab__contents">
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image01.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Sarah Mitchell</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Founder and CEO 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image02.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Emily Thompson</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Operating Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div   class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image03.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>John Davis</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Financial Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image04.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Rachel Adams</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Marketing Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content class="main-tab__contents">
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image01.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Sarah Mitchell</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Founder and CEO 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image02.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Emily Thompson</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Operating Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div   class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image03.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>John Davis</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Financial Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image04.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Rachel Adams</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Marketing Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content class="main-tab__contents">
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image01.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Sarah Mitchell</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Founder and CEO 5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image02.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Emily Thompson</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Operating Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div   class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image03.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>John Davis</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Financial Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="main-tab__content content-tab">
+                                    <div class="content-tab__image">
+                                        <img src="img/page/page3/Image04.jpg" alt="image">
+                                    </div>
+                                    <div class="content-tab__person-tab person-tab">
+                                        <div class="person-tab__body">
+                                            <div class="person-tab__title">
+                                                <h4>Rachel Adams</h4>
+                                            </div>
+                                            <div class="person-tab__text text">
+                                                <p>Chief Marketing Officer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main__demo main-demo block-padding">
+                    <div class="main-demo__container">
+                        <div class="main-demo__body">
+                            <div class='main-demo__header-item header-item'>
+                            <div class='main-demo__title _anim-items'>
+                            <h2>Join Our Team</h2>
+                            </div>
+                            <div class='header-item__text text  _anim-items'>
+                            <p>We are always on the lookout for talented individuals who are enthusiastic about making a difference. Explore our career opportunities and join us in our mission to help people achieve their health and wellness goals.</p>
+                            </div>
+                            </div>
+                            <div class="main-demo__buttons">
+                                <a href="/" class="button button-green">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+			</main>
+			
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top footer-top">
+            <div class="footer-top__logo">
+                <a href="">
+                    <picture>
+                        <source media="(min-width:1280px )" type="image/svg+xml" srcset="img/header/logo-desktop-big.svg">
+                        <source media="(min-width:768px )" type="image/svg+xml" srcset="img/header/logo-desktop-large.svg">
+                        <source media="(min-width:280px )" type="image/svg+xml" srcset="img/header/logo-mobile.svg">
+                        <img src="img/header/logo-desktop-big.svg" alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <nav class="footer__menu footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item">
+                        <a href='index.html' class="menu-footer__link">Home</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='about.html' class="menu-footer__link">About</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='team.html' class="menu-footer__link">Team</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='process.html' class="menu-footer__link">Process</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='pricing.html' class="menu-footer__link">Pricing</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='blog.html' class="menu-footer__link">Blog</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='contact.html' class="menu-footer__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-top__btn">
+                <div class="footer-top__text">
+                    <p>Got To Top</p>
+                </div>
+                <div class="footer-top__btn-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0002 25.5C16.296 25.5 15.7252 24.9292 15.7252 24.225L15.7252 12.9405L12.3943 16.6087C11.9062 17.1163 11.0991 17.1321 10.5915 16.6441C10.0839 16.156 10.0681 15.3489 10.5561 14.8413L16.0811 8.89129C16.3215 8.64129 16.6534 8.5 17.0002 8.5C17.347 8.5 17.6789 8.64129 17.9193 8.89129L23.4443 14.8413C23.9323 15.3489 23.9165 16.156 23.4089 16.6441C22.9013 17.1321 22.0942 17.1163 21.6061 16.6087L18.2752 12.9405V24.225C18.2752 24.9292 17.7044 25.5 17.0002 25.5Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom footer-bottom">
+            <div class="footer-bottom__items">
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/message.svg" alt="message">
+                    <p>hello@squareup.com</p>
+                </a>
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/call.svg" alt="message">
+                    <p>+91 91813 23 2309</p>
+                </a>
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/location.svg" alt="message">
+                    <p>Somewhere in the World</p>
+                </a>
+            </div>
+            <div class="footer-bottom__politic">
+                <p>© 2023 Nutritionist. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+		</div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>

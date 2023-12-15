@@ -26,7 +26,7 @@
                     </div>
                     <div class="header__body">
                         <div class="header__logo">
-                            <a href="">
+                            <a href="#">
                                 <picture>
                                     <source media="(min-width:1280px )" type="image/svg+xml" srcset="creonova/img/header/logo-desktop-big.svg">
                                     <source media="(min-width:768px )" type="image/svg+xml" srcset="creonova/img/header/logo-desktop-large.svg">
@@ -34,7 +34,6 @@
                                     <img src="creonova/img/header/logo-desktop-big.svg" alt="logo">
                                 </picture>
                             </a>
-                            
                         </div>
                         <nav class="header__menu menu">
                             <ul class="menu__list">
@@ -56,13 +55,13 @@
                                 <li class="menu__item">
                                     <a href='creonova-blog.html' class="menu__link">Blog</a>
                                 </li>
-                                <li class="menu__item">
-                                    <a href='creonova-contact.html' class="menu__btn button-green ">Contact Us</a>
-                                </li>
                             </ul>
+                            <button class="header__btn">
+                                <a href='creonova-contact.html' class="menu__btn button-green ">Contact Us</a>
+                            </button>
                         </nav>
                         <div class="icon-menu">
-                        <span></span>
+                            <span></span>
                         </div>
                     </div>
             
@@ -95,35 +94,29 @@
                             <div class="main-filter__swiper swiper">
                                 <div class="main-filter__swiper-wrapper swiper-wrapper">
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link _active"> All</div>
+                                        <div data-blog="all" class="trigger__link _active"> All</div>
                                     </div>
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link">Weight Loss Tips </div>
+                                        <div data-blog="tips" class="trigger__link">Weight Loss Tips </div>
                                     </div>
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link">Healthy Eating </div>
+                                        <div data-blog="eating" class="trigger__link">Healthy Eating </div>
                                     </div>
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link">Fitness and Exercise</div>
+                                        <div data-blog="fitnes" class="trigger__link">Fitness and Exercise</div>
                                     </div>
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link">Mindset and Motivation </div>
+                                        <div data-blog="motivation" class="trigger__link">Mindset and Motivation </div>
                                     </div>
                                     <div class="main-filter__swiper-slide swiper-slide">
-                                        <div class="trigger__link"> Recipes and Meal Planning</div>
+                                        <div data-blog="plan" class="trigger__link"> Recipes and Meal Planning</div>
                                     </div>
                                 </div>
                             </div>
-                           
-                        
-                            
-                          
-                            
-                           
                         </div>
                         <div class="main-filter__body">
-                            <article class="main-filter__item">
-                                <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
+                            <article data-filter="tips" class="main-filter__item">
+                                <div  class="main-filter__label border-title">Weight Loss Tips</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/01.jpg" alt="image">
                                 </div>
@@ -141,7 +134,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item ">
+                            <article data-filter="tips" class="main-filter__item ">
                                 <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/02.jpg" alt="image">
@@ -160,7 +153,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item ">
+                            <article data-filter="tips" class="main-filter__item ">
                                 <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/03.jpg" alt="image">
@@ -179,7 +172,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item">
+                            <article data-filter="tips" class="main-filter__item">
                                 <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/04.jpg" alt="image">
@@ -198,7 +191,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="eating" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Healthy Eating</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/05.jpg" alt="image">
@@ -217,7 +210,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="eating" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Healthy Eating</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/06.jpg" alt="image">
@@ -236,7 +229,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article  data-filter="fitnes" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Fitness and Exercise</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/07.jpg" alt="image">
@@ -255,7 +248,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="fitnes" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Fitness and Exercise</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/08.jpg" alt="image">
@@ -274,7 +267,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="motivation" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Mindset and Motivation</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/09.jpg" alt="image">
@@ -293,7 +286,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="motivation" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Mindset and Motivation</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/10.jpg" alt="image">
@@ -312,7 +305,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article  data-filter="plan" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Recipes and Meal Planning</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/11.jpg" alt="image">
@@ -331,7 +324,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="main-filter__item main-filter__item-hide">
+                            <article data-filter="plan" class="main-filter__item main-filter__item-hide">
                                 <div data="" class="main-filter__label border-title">Recipes and Meal Planning</div>
                                 <div class="main-filter__image">
                                     <img class="main-filter__img" src="creonova/img/page/page5/12.jpg" alt="image">
@@ -426,7 +419,6 @@
                     </div>
                 </div>
             </footer>
-
 		</div>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="creonova/js/app.min.js"></script>

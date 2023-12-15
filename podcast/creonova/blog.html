@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" class="slider2">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+	<title>Главная</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+    <div class="header__container">
+        <div class="header__top header-top">
+            <div class="header-top__item">
+                <a class="header-top__link"  href="/">
+                    <p>Join Our Personalized Nutrition Demo For Free</p>
+                    <svg  width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6001 12.0002C3.6001 11.5031 4.00304 11.1002 4.5001 11.1002L17.2656 11.1002L12.2763 6.34894C11.918 6.00443 11.9068 5.43469 12.2513 5.0764C12.5959 4.7181 13.1656 4.70693 13.5239 5.05144L20.1239 11.3514C20.3004 11.5211 20.4001 11.7554 20.4001 12.0002C20.4001 12.245 20.3004 12.4793 20.1239 12.6489L13.5239 18.9489C13.1656 19.2935 12.5959 19.2823 12.2513 18.924C11.9068 18.5657 11.918 17.996 12.2763 17.6514L17.2656 12.9002L4.5001 12.9002C4.00304 12.9002 3.6001 12.4973 3.6001 12.0002Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="header__logo">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width:1280px )" type="image/svg+xml" srcset="img/header/logo-desktop-big.svg">
+                        <source media="(min-width:768px )" type="image/svg+xml" srcset="img/header/logo-desktop-large.svg">
+                        <source media="(min-width:280px )" type="image/svg+xml" srcset="img/header/logo-mobile.svg">
+                        <img src="img/header/logo-desktop-big.svg" alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href='index.html' class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='about.html' class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='team.html' class="menu__link">Team</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='process.html' class="menu__link">Process</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='pricing.html' class="menu__link">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='blog.html' class="menu__link">Blog</a>
+                    </li>
+                </ul>
+                <button class="header__btn">
+                    <a href='contact.html' class="menu__btn button-green ">Contact Us</a>
+                </button>
+            </nav>
+            <div class="icon-menu">
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+</header>
+			<main class="main">
+                <div class="main__block-img main-block-img">
+                    <div class="main-block-img__container">
+                        <div class="main-block-img__body">
+                            <div class="main-block-img__img">
+                                <img src="img/page/page3/icon-top.svg" alt="image">
+                            </div>
+                            <div class='main-block-img__header-item header-item'>
+                                <div class='header-item__title _anim-items'>
+                                    <h1>Our Blogs</h1>
+                                </div>
+                                <div class='header-item__text text  _anim-items'>
+                                    <p>Welcome to the Blog section of Nutritionist, your trusted source for insightful articles, tips, and expert advice
+                                        on nutrition and wellness. Here, we strive to provide you with engaging and informative content that will
+                                        inspire and empower you to make informed decisions about your health. Explore our blog to discover a wealth of
+                                        resources that cover a wide range of topics related to nutrition, fitness, and overall well-being.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="main__filter main-filter">
+                    <div class="main-filter__container ">
+                        <div class="main-filter__trigger trigger">
+                            <div class="main-filter__swiper swiper">
+                                <div class="main-filter__swiper-wrapper swiper-wrapper">
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="all" class="trigger__link _active"> All</div>
+                                    </div>
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="tips" class="trigger__link">Weight Loss Tips </div>
+                                    </div>
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="eating" class="trigger__link">Healthy Eating </div>
+                                    </div>
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="fitnes" class="trigger__link">Fitness and Exercise</div>
+                                    </div>
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="motivation" class="trigger__link">Mindset and Motivation </div>
+                                    </div>
+                                    <div class="main-filter__swiper-slide swiper-slide">
+                                        <div data-blog="plan" class="trigger__link"> Recipes and Meal Planning</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-filter__body">
+                            <article data-filter="tips" class="main-filter__item">
+                                <div  class="main-filter__label border-title">Weight Loss Tips</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/01.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>10 Effective Strategies for Sustainable Weight Loss</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Discover proven strategies for long-term weight loss success. Learn how to create healthy habits, set achievable goals, and make sustainable lifestyle changes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="tips" class="main-filter__item ">
+                                <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/02.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>The Role of Portion Control in Weight Management</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Learn how portion control can help you manage your weight effectively. Find practical tips for controlling portion sizes and avoiding overeating.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="tips" class="main-filter__item ">
+                                <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/03.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Understanding Emotional Eating and How to Overcome Its</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Explore the connection between emotions and eating habits. Get valuable insights on how to identify emotional triggers and develop healthier coping mechanisms.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="tips" class="main-filter__item">
+                                <div data="" class="main-filter__label border-title">Weight Loss Tips</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/04.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>How to Stay Motivated on Your Weight Loss Journey</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Find effective strategies to stay motivated and overcome obstacles during your weight loss journey. Get tips on setting realistic goals, tracking progress, and celebrating achievements.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="eating" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Healthy Eating</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/05.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>The Benefits of a Plant-Based Diet for Overall Health</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Explore the advantages of adopting a plant-based diet. Learn about the potential health benefits, nutrient-rich plant-based foods, and tips for transitioning to a plant-based lifestyle.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="eating" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Healthy Eating</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/06.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Understanding Macronutrients: Carbohydrates, Proteins, and Fats</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Get a comprehensive overview of macronutrients and their role in a balanced diet. Discover the best sources of each macronutrient and how to incorporate them into your meals.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article  data-filter="fitnes" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Fitness and Exercise</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/07.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Cardio vs. Strength Training: Which Is Better for Weight Loss?</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Explore the benefits of both cardio and strength training exercises for weight loss. Find out how to combine them effectively to maximize your results.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="fitnes" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Fitness and Exercise</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/08.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Building a Home Workout Routine: Tips and Best Practices</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Discover how to create an effective workout routine at home. Learn about equipment options, exercise techniques, and ways to stay motivated.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="motivation" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Mindset and Motivation</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/09.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Developing a Positive Body Image and Self-Confidence</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Explore techniques for cultivating a positive body image and improving self-confidence. Learn how to embrace your body and appreciate your unique qualities.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="motivation" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Mindset and Motivation</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/10.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Overcoming Self-Sabotage in Your Weight Loss Journey</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Identify self-sabotaging behaviors and learn strategies to overcome them. Discover how to shift your mindset and develop healthier habits.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article  data-filter="plan" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Recipes and Meal Planning</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/11.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Healthy and Flavorful Lunch Ideas for a Busy Lifestyle</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Discover a variety of tasty and nutritious lunch options that are perfect for those with busy schedules. These recipes are quick to make and packed with essential nutrients.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article data-filter="plan" class="main-filter__item main-filter__item-hide">
+                                <div data="" class="main-filter__label border-title">Recipes and Meal Planning</div>
+                                <div class="main-filter__image">
+                                    <img class="main-filter__img" src="img/page/page5/12.jpg" alt="image">
+                                </div>
+                                <div class="main-filter__info filter-info">
+                                    <div class="filter-info__header">
+                                        <div class="filter-info__title">
+                                            <h3>Satisfying and Nutritious Dinner Recipes for Weight Loss</h3>
+                                        </div>
+                                        <div class="filter-info__text text">
+                                            <p>Find a collection of flavorful dinner recipes that are both satisfying and supportive of your weight loss goals. These recipes are designed to be healthy and delicious.</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter-info__button">
+                                        <a href="/" class="button button-green">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+			</main>
+			
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top footer-top">
+            <div class="footer-top__logo">
+                <a href="">
+                    <picture>
+                        <source media="(min-width:1280px )" type="image/svg+xml" srcset="img/header/logo-desktop-big.svg">
+                        <source media="(min-width:768px )" type="image/svg+xml" srcset="img/header/logo-desktop-large.svg">
+                        <source media="(min-width:280px )" type="image/svg+xml" srcset="img/header/logo-mobile.svg">
+                        <img src="img/header/logo-desktop-big.svg" alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <nav class="footer__menu footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item">
+                        <a href='index.html' class="menu-footer__link">Home</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='about.html' class="menu-footer__link">About</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='team.html' class="menu-footer__link">Team</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='process.html' class="menu-footer__link">Process</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='pricing.html' class="menu-footer__link">Pricing</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='blog.html' class="menu-footer__link">Blog</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='contact.html' class="menu-footer__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-top__btn">
+                <div class="footer-top__text">
+                    <p>Got To Top</p>
+                </div>
+                <div class="footer-top__btn-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0002 25.5C16.296 25.5 15.7252 24.9292 15.7252 24.225L15.7252 12.9405L12.3943 16.6087C11.9062 17.1163 11.0991 17.1321 10.5915 16.6441C10.0839 16.156 10.0681 15.3489 10.5561 14.8413L16.0811 8.89129C16.3215 8.64129 16.6534 8.5 17.0002 8.5C17.347 8.5 17.6789 8.64129 17.9193 8.89129L23.4443 14.8413C23.9323 15.3489 23.9165 16.156 23.4089 16.6441C22.9013 17.1321 22.0942 17.1163 21.6061 16.6087L18.2752 12.9405V24.225C18.2752 24.9292 17.7044 25.5 17.0002 25.5Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom footer-bottom">
+            <div class="footer-bottom__items">
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/message.svg" alt="message">
+                    <p>hello@squareup.com</p>
+                </a>
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/call.svg" alt="message">
+                    <p>+91 91813 23 2309</p>
+                </a>
+                <a class="footer-bottom__item">
+                    <img src="img/footer/icon/location.svg" alt="message">
+                    <p>Somewhere in the World</p>
+                </a>
+            </div>
+            <div class="footer-bottom__politic">
+                <p>© 2023 Nutritionist. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+		</div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
