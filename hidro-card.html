@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="zxx" class="cards">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="hidro/css/style.min.css">
+	<title>Главная</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+    <div class="header__container">
+        <div class="header__top header-top">
+            <div class="icon-menu">
+            <span></span>
+            </div>
+            <div class="menu-mobile">
+                <nav class="menu-mobile__nav">
+                    <ul class="menu-mobile__list">
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-user"></i>
+                                <p>Войти</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-user"></i>
+                                <p>Регистрация</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>Избранное</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Корзина</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-store"></i>
+                                <p>Магазины</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-percent"></i>
+                                <p>Акции</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="header-top__link-icon">
+                                <i class="fa-solid fa-box"></i>
+                                <p>Доставка и оплата</p>
+                            </a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link _active">Квадроциклы</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link ">Катера</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Гидроциклы</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Лодки</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Вездеходы</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Снегоходы</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Двигатели</a>
+                        </li>
+                        <li class="menu-mobile__item">
+                            <a href="#" class="menu-mobile__link">Запчасти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav data-da=".header-bottom,850,0" class="header-top__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href='hidro-catalog.html' class="menu__link">Магазины</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='hidro-card.html' class="menu__link">Акции</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href='hidro-index.html' class="menu__link">Доставка и оплата</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-top__logo">
+                <picture>
+                    <source media="(min-width: 850px )" srcset="hidro/img/header/logo.svg" type="image/svg+xml">
+                    <source media="(max-width: 850px)" srcset="hidro/img/header/logo-mobile.svg" type="image/svg+xml">
+                    <img src="hidro/img/header/logo.svg" alt="Logo">
+                </picture>
+            </div>
+            <div class="header-top__body">
+                <div data-da=".menu-mobile,480,2" class="header-top__adress header-adress">
+                    <a class="header-adress__link" href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p> ул. Науки  25</p>
+                    </a>
+                </div>
+                <ul class="header-top__list-icon">
+                    <li class="header-top__item-icon">
+                        <a href="#" class="header-top__link-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="header-top__item-icon">
+                        <a href="#" class="header-top__link-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="header-top__item-icon">
+                        <a href="#" class="header-top__link-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__bottom header-bottom">
+            <ul  class="header-bottom__list">
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Квадроциклы</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Катера</a>
+                </li>
+                <li class="header-bottom__item _active">
+                    <a href="/" class="header-bottom__link ">Гидроциклы</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Лодки</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Вездеходы</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Снегоходы</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Двигатели</a>
+                </li>
+                <li class="header-bottom__item">
+                    <a href="/" class="header-bottom__link">Запчасти</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+			<main class="main">
+			    <div class="block-loading"></div>
+
+				<div class="main__card cards">
+					<div class="card__container">
+						<div class="cards__body cards-body padding">
+							<div data-da=".cards-body__content,767.98,3" class="cards-body__image image-block">
+								<p class="image-block__sale">SALE</p>
+								<div class="image-block__image">
+									<img src="hidro/img/tovar/2.png" alt="Image">
+								</div>
+								<div class="image-block__title title-price">
+									<div class="title-price__back-price">1 200 475 </div>
+									<div class="title-price__this-price">1 100 475 </div>
+									<button class="title-price__button">Нашли дешевле? Снизим цену!</button>
+								</div>
+							</div>
+							<div class="cards-body__content cards-information">
+								<div class="cards-information__title">
+									<h1>Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</h1>
+								</div>
+								<div class="cards-information__code">
+									<p>Код товара: 	366666-2 </p>
+								</div>
+								<div class="cards-information__rating">
+									<div class="cards-information__like">
+										<i class="fa-regular fa-heart"></i>
+									</div>
+									<div class="">
+										<i class="fa-solid fa-signal"></i>
+									</div>
+									<div class="cards-information__rating-block rating-block">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+								</div>
+								<div class="cards-information__tabs information-tabs">
+									<div class="information-tabs__triggers">
+										<button class="information-tabs__trigger _active">Характеристики</button>
+										<button class="information-tabs__trigger">Наличие в магазине</button>
+									</div>
+									<div class="information-tabs__content">
+										<ul class="information-tabs__list">
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Производитель</div>
+												<div class="position-tovar__info">Канада</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Количество мест, шт: </div>
+												<div class="position-tovar__info">3</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Мощность, л.с.</div>
+												<div class="position-tovar__info">155</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Тип двигателя</div>
+												<div class="position-tovar__info">Бензиновый</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Год выпуска</div>
+												<div class="position-tovar__info">	2018</div>
+											</li>
+										</ul>
+									</div>
+									<div class="information-tabs__buttons">
+										<button class="information-tabs__buttons-link">Показать еще</button>
+									</div>
+
+								</div>
+								<div class="cards-information__buttons">
+									<button class="cards-information__button button-blue">купить</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__content cards-content padding">
+							<div class="cards__slider">
+								<ul class="cards__list-info ">
+									<li class="list-info__item">
+										<button class="list-info__button">О товаре</button>
+									</li>
+									<li class="list-info__item _active">
+										<button class="list-info__button">Характеристики</button>
+									</li>
+									<li class="list-info__item">
+										<button class="list-info__button">Отзывы</button>
+									</li>
+									<li class="list-info__item">
+										<button class="list-info__button">Самовывоз</button>
+									</li>
+									<li class="list-info__item">
+										<button class="list-info__button">Доставка</button>
+									</li>
+									<li class="list-info__item">
+										<button class="list-info__button">Cервис</button>
+									</li>
+									<li class="list-info__item">
+										<button class="list-info__button">Гарантия</button>
+									</li>
+								</ul>
+							</div>
+							<div class="cards-content__items">
+								<div class="cards-content__item">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias libero ipsam quaerat? Maxime voluptas incidunt veniam est ad autem dolorem enim. Iste minus dicta iusto vel quisquam odio sequi voluptatibus, repellendus sapiente nobis ratione perferendis commodi maxime quas deleniti debitis enim officia unde alias iure error placeat. Explicabo fugit accusantium ea, sunt assumenda laborum ut voluptas ipsa pariatur? Eligendi quisquam sint tempora harum nostrum aperiam consequuntur repellat odit, dicta earum magni voluptas labore possimus autem deserunt, suscipit voluptatum voluptatibus. Veritatis architecto, labore modi nobis commodi nihil libero dolorum, temporibus aut tempora harum culpa numquam nesciunt quasi quis at quaerat?
+								</div>
+								<div class="cards-content__item">
+									<div class="information-tabs__content">
+										<ul class="information-tabs__list">
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Производитель</div>
+												<div class="position-tovar__info">Канада</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Количество мест, шт: </div>
+												<div class="position-tovar__info">3</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Мощность, л.с.</div>
+												<div class="position-tovar__info">155</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Тип двигателя</div>
+												<div class="position-tovar__info">Бензиновый</div>
+											</li>
+											<li class="information-tabs__item position-tovar">
+												<div class="position-tovar__title">Год выпуска</div>
+												<div class="position-tovar__info">	2018</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="cards-content__item">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit officia doloremque fugit dolorem nulla alias. Nostrum cumque voluptate nisi neque quod eius similique. Omnis laborum et quod. Veritatis, reiciendis.
+								</div>
+								<div class="cards-content__item content-sam _active">
+									<div class="content-sam__top">
+										<div class="content-sam__top-body">
+											<div class="content-sam__title">
+												<p>Магазин</p>
+											</div>
+											<div class="content-sam__search">
+												<input class="content-sam__input" type="search" >
+												<button class="content-sam__button">
+													<i class="fa-solid fa-magnifying-glass"></i>
+												</button>
+											</div>
+										</div>
+										
+										<ul  class="content-sam__list">
+											<li class="filter-item__link">
+												<label class="filter-item__label label-check">
+													<span class="label-check__p">Забрать сегодня</span>
+													<input class="label-check__input" checked name="pick-up" type="radio">
+													<span class="label-check__span"></span>
+												</label>
+											</li>
+											<li class="filter-item__link">
+												<label class="filter-item__label label-check">
+													<span class="label-check__p">Забрать в течение недели</span>
+													<input class="label-check__input" name="pick-up" type="radio">
+													<span class="label-check__span"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+
+									<ul class="content-sam__list-button ">
+										<li class="content-sam__item-titles adress-list-hidden">
+											<p class="content-sam__item-title">Адрес</p>
+											<p class="content-sam__item-title">Режим работы</p>
+											<p class="content-sam__item-title">Доступно</p>
+											<p class="content-sam__item-title">Количество</p>
+										</li>
+										<li class="content-sam__item adress-list adress-list-hidden">
+											<div class="adress-list__title">
+												<p> ул. Науки 25</p>
+											</div>
+											<div class="adress-list__list list-time ">
+												<div class="list-time__item">пн-сб:</div>
+												<div class="list-time__item">08:00-19:00</div>
+												<div class="list-time__item">вс:</div>
+												<div class="list-time__item">09:00-17:00</div>
+											</div>
+											<div class="adress-list__awailable">
+												<p>В наличии</p>
+											</div>
+											<div class="adress-list__counter">
+												<p>1</p>
+											</div>
+											<div class="adress-list__button">
+												<button class="button-blue">КУПИТЬ</button>
+											</div>
+										</li>
+										<li class="content-sam__item adress-list adress-list-hidden">
+											<div class="adress-list__title">
+												<p> ул. Науки 25</p>
+											</div>
+											<div class="adress-list__list list-time ">
+												<div class="list-time__item">пн-сб:</div>
+												<div class="list-time__item">08:00-19:00</div>
+												<div class="list-time__item">вс:</div>
+												<div class="list-time__item">09:00-17:00</div>
+											</div>
+											<div class="adress-list__awailable">
+												<p>В наличии</p>
+											</div>
+											<div class="adress-list__counter">
+												<p>1</p>
+											</div>
+											<div class="adress-list__button">
+												<button class="button-blue">КУПИТЬ</button>
+											</div>
+										</li>
+										<li class="content-sam__item adress-list adress-list-hidden">
+											<div class="adress-list__title">
+												<p> ул. Науки 25</p>
+											</div>
+											<div class="adress-list__list list-time ">
+												<div class="list-time__item">пн-сб:</div>
+												<div class="list-time__item">08:00-19:00</div>
+												<div class="list-time__item">вс:</div>
+												<div class="list-time__item">09:00-17:00</div>
+											</div>
+											<div class="adress-list__awailable">
+												<p>В наличии</p>
+											</div>
+											<div class="adress-list__counter">
+												<p>1</p>
+											</div>
+											<div class="adress-list__button">
+												<button class="button-blue">КУПИТЬ</button>
+											</div>
+										</li>
+										<li class="info-mobile">
+											<div class="info-mobile__item mobile-adress">
+												<ul class="mobile-adress__list">
+													<li class="mobile-adress__item">
+														<p class="work-adress__title">Адрес</p>
+														<p>Москва, ул. Науки 25</p>
+													</li>
+													<li class="mobile-adress__item-work work-adress">
+														<div class="work-adress__title">
+															<p>Режим работы</p>
+														</div>
+														<div class="mobile-adress__item">
+															<p>пн-сб:</p>
+															<p>08:00-19:00</p>
+															<p>вс:</p>
+															<p>09:00-17:00</p>
+														</div>
+													</li>
+													<li class="mobile-adress__item">
+														<p class="work-adress__title">Доступно</p>
+														<p>В наличие</p>
+													</li>
+													<li class="mobile-adress__item">
+														<p class="work-adress__title"> Количество</p>
+														<p>1</p>
+													</li>
+													<li class="mobile-adress__item-button">
+														<button class="button-blue">купить</button>
+													</li>
+												</ul>
+												
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="cards-content__item">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae debitis illo voluptas cupiditate odit ab placeat, sequi, ipsa eveniet laboriosam deserunt? Nihil corrupti quas cum nostrum sed error provident animi in illo adipisci, eius, eos perspiciatis tenetur. Quis expedita aperiam, beatae ea quasi cum veniam perferendis odio temporibus doloremque. Voluptate.
+								</div>
+								<div class="cards-content__item">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Et adipisci a dolor aut odio dolore, excepturi nihil, labore necessitatibus mollitia nostrum dignissimos unde minus debitis vel tempora illum inventore! Itaque id neque reprehenderit enim. Facilis sit at, vero fugit neque totam, tempora dolorum voluptatem libero deserunt mollitia cupiditate delectus eos quae expedita tempore deleniti iure molestias officia! Vel corrupti veritatis, placeat sunt totam dicta quisquam! Quod mollitia excepturi consequatur perferendis.
+								</div>
+								<div class="cards-content__item">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cupiditate inventore ducimus quo soluta, blanditiis aperiam praesentium aut illum ipsum dolores repellat enim, beatae iste delectus alias minus odio. Voluptate nisi illum quos cum et? Doloribus, ut! Qui earum doloremque repellat impedit rem nostrum tempore voluptatum! Itaque, deleniti repellat? Perferendis?
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<section class="main__popular popular padding">
+					<div class="popular__container">
+						<div class="popular__body">
+							<div class="popular__title title">
+								<h2>С этим товаром покупают</h2>
+							</div>
+							<div class="popular__filters popular__filters-3">
+								<ul class="popular__filter-list  popular__filter-flex">
+									<li data-slides="parts" class="popular__filter-item ">
+										<button class="popular__filter-button ">запчасти</button>
+									</li>
+									<li data-slides="motor" class="popular__filter-item ">
+										<button class="popular__filter-button">моторы</button>
+									</li>
+									<li data-slides="tires" class="popular__filter-item ">
+										<button class="popular__filter-button">шины </button>
+									</li>
+									<li data-slides="electronics" class="popular__filter-item ">
+										<button class="popular__filter-button ">электроника</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class='popular__swiper swiper'>
+							<div  class='popular__swiper-wrapper  swiper-wrapper'>
+								<div data-slide="parts" class='popular__swiper-slide card-item swiper-slide'>
+									<span class="card-item__like">
+										<i class="fa-regular fa-heart"></i>
+									</span>
+									<div class="card-item__image">
+										<img src="hidro/img/popular/01.png" alt="image">
+									</div>
+									<div class="card-item__title anim-bottom _anim-item">
+										<h3>Водонепроницаемый
+											Рюкзак</h3>
+									</div>
+									<div class="card-item__price">
+										<p>9 800 </p>
+									</div>
+									<div class="card-item__add">
+										<button class="card-item__add-button">
+											<i class="fa-solid fa-cart-plus"></i>
+										</button>
+									</div>
+									<div class="card-item__view">
+										<a class="card-item__view-link" href="#">посмотреть товар</a>
+									</div>
+								</div>
+								<div data-slide="motor" class='popular__swiper-slide card-item swiper-slide'>
+									<p class="card-item__sale">SALE</p>
+									<span class="card-item__like">
+										<i class="fa-regular fa-heart"></i>
+									</span>
+									<div class="card-item__image">
+										<img src="hidro/img/popular/02.png" alt="image">
+									</div>
+									<div class="card-item__title anim-bottom _anim-item">
+										<h3>Спасательный жилет BRP Men's Airflow PFD
+										</h3>
+									</div>
+									<div class="card-item__price">
+										<p>6 900 </p>
+									</div>
+									<div class="card-item__add">
+										<button class="card-item__add-button">
+											<i class="fa-solid fa-cart-plus"></i>
+										</button>
+									</div>
+									<div class="card-item__view">
+										<a class="card-item__view-link" href="#">посмотреть товар</a>
+									</div>
+								</div>
+								<div data-slide="tires" class='popular__swiper-slide card-item swiper-slide'>
+									<span class="card-item__like">
+										<i class="fa-regular fa-heart"></i>
+									</span>
+									<div class="card-item__image">
+										<img src="hidro/img/popular/03.png" alt="image">
+									</div>
+									<div class="card-item__title anim-bottom _anim-item">
+										<h3>
+											BRP Audio-Premium System</h3>
+									</div>
+									<div class="card-item__price">
+										<p>68 000</p>
+									</div>
+									<div class="card-item__add">
+										<button class="card-item__add-button">
+											<i class="fa-solid fa-cart-plus"></i>
+										</button>
+									</div>
+									<div class="card-item__view">
+										<a class="card-item__view-link" href="#">посмотреть товар</a>
+									</div>
+								</div>
+								<div data-slide="tires" class='popular__swiper-slide card-item swiper-slide'>
+									<p class="card-item__sale">SALE</p>
+									<span class="card-item__like active">
+										<i class="fa-regular fa-heart"></i>
+									</span>
+									<div class="card-item__image">
+										<img src="hidro/img/popular/04.png" alt="image">
+									</div>
+									<div class="card-item__title anim-bottom _anim-item" >
+										<h3>Спасательное
+											снаряжение</h3>
+									</div>
+									<div class="card-item__price-no">
+										<p>нет в наличии</p>
+									</div>
+									<div class="card-item__add">
+										
+										<button class="card-item__add-to-sklad">
+											Сообщить о поступлении
+										</button>
+									</div>
+									<div class="card-item__view">
+										<a class="card-item__view-link" href="#">посмотреть товар</a>
+									</div>
+								</div>
+								<div data-slide="electronics" class='popular__swiper-slide card-item swiper-slide'>
+									<p class="card-item__sale">SALE</p>
+									<span class="card-item__like">
+										<i class="fa-regular fa-heart"></i>
+									</span>
+									<div class="card-item__image">
+										<img src="hidro/img/popular/02.png" alt="image">
+									</div>
+									<div class="card-item__title anim-bottom _anim-item">
+										<h3>Спасательный жилет BRP Men's Airflow PFD
+										</h3>
+									</div>
+									<div class="card-item__price">
+										<p>6 900 </p>
+									</div>
+									<div class="card-item__add">
+										<button class="card-item__add-button">
+											<i class="fa-solid fa-cart-plus"></i>
+										</button>
+									</div>
+									<div class="card-item__view">
+										<a class="card-item__view-link" href="#">посмотреть товар</a>
+									</div>
+								</div>
+							</div>
+							<div class="popular__swiper-buttons">
+								<div class="swiper-button swiper-popular-left"><i class="fa-solid fa-chevron-left"></i></div>
+								<div class="swiper-button swiper-popular-right"><i class="fa-solid fa-chevron-right"></i></div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</section>
+
+
+			</main>
+			<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top footer-top">
+            <form class="footer__form">
+                <div class="footer__title">
+                    <h3>Подпишитесь на нашу рассылку 
+                        и узнавайте о акция быстрее</h3>
+                </div>
+                <div  class="footer__label">
+                    <input class="footer__input" type="email" required placeholder="Введите ваш e-mail:" name="email">
+                    <button type="submit" class="footer__button">Отправить</button>
+                </div>
+            </form>
+
+            <nav data-spollers-footer class="footer__menu footer-menu footer-menu-1">
+                <div data-spoller-footer class="footer__title footer__title-1">
+                    <h3>Информация</h3>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                <ul data-content-footer class="footer-menu__list">
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">О компании</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Контакты</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Акции</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Магазины</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav data-spollers-footer class="footer__menu footer-menu footer-menu-2">
+                <div data-spoller-footer class="footer__title">
+                    <h3>Интернет-магазин</h3>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                <ul data-content-footer class="footer-menu__list">
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Доставка и самовывоз</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Оплата</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Возврат-обмен</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href='#' class="footer-menu__link">Новости</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="footer-top__social social">
+                <li class="social__item">
+                    <a href="#" class="social__link"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__bottom footer-bottom">
+            <a href="#">Договор оферты</a>
+            <a href="#">Политика обработки персональных данных</a>
+        </div>
+    </div>
+</footer>
+
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="https://kit.fontawesome.com/bc2d359d6d.js" crossorigin="anonymous"></script>
+		<script src="hidro/js/app.min.js"></script>
+	</body>
+</html>
