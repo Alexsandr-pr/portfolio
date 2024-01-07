@@ -2688,3 +2688,7 @@ input[type=range]::-moz-range-thumb {
   opacity: 1;
   transform: translateX(0);
 }
+
+.filter-content__body  {
+  margin-bottom: 25px;
+}
