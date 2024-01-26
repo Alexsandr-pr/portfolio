@@ -188,9 +188,10 @@
 
 .header {
   position: fixed;
-  z-index: 300;
+  z-index: 3000;
   width: 100%;
   backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
   background: rgba(33, 30, 28, 0.3) !important;
 }
 .header__top {
@@ -790,11 +791,13 @@ input[type=search]::-webkit-search-cancel-button {
     position: fixed;
     z-index: 251;
     left: 0;
+    box-shadow: 4px 4px 4px #36332E;
     top: 0;
     transform: translateY(-120%);
     transition: all 0.5s ease 0s;
     width: 60%;
     border-radius: 4px;
+    
     background: #211E1C;
     padding: 70px 20px 0px 20px;
   }
