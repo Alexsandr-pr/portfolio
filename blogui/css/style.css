@@ -576,11 +576,8 @@
           flex-direction: column;
 }
 
-.main-news__sub-title span {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
+
+
 
 .title-80 {
   color: #FFF;
@@ -2715,14 +2712,14 @@ button {
     display: none;
   }
 
-  .main-news__sub-title {
+  .main-news__sub-title span{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     gap: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
   }
 
   .main-visual__item:nth-child(odd) {
@@ -2815,6 +2812,7 @@ button {
 @media (min-width: 1280.98px) {
   .main-news__sub-title h2 {
     white-space: nowrap;
+    display: flex ;
   }
 
   .main-visual__item:nth-child(odd) {
@@ -5332,4 +5330,76 @@ button {
     -webkit-box-shadow: 3px 3px 4px rgba(255, 209, 26, 0.5);
             box-shadow: 3px 3px 4px rgba(255, 209, 26, 0.5);
   }
+}
+@media(max-width:1280.98px){
+  .main-news__body {
+    padding: 80px 0px 100px 0px !important;
+  }
+  .title-80 {
+    font-size: 55px !important;
+    letter-spacing: -1.65px !important;
+  }
+
+}
+
+@media(max-width:991.98px){
+  .main-news__body {
+    padding: 60px 0px !important;
+  }
+}
+@media(max-width:767.98px){
+  .main-news__body {
+    padding: 40px 0px !important;
+  }
+  .main-news__title span {
+    display: inline-flex !important;   
+  }
+  .main-news__title {
+    gap: 14px !important;
+  }
+}
+.main-news__body {
+  border-bottom: 1px solid  #262626 !important;
+  padding: 130px 0px 150px 0px !important;
+}
+.main-news__title {
+  gap: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+@media(min-width:767.98px){
+  .main-news__title span {
+    display: none !important;
+  }
+  .main-news__sub-title {
+    align-items: center !important;
+    gap: 80px !important;
+    display: flex !important;
+   }
+}
+.main-news__sub-title h2{
+    white-space: nowrap !important;
+}
+.main-news__sub-title span {
+  display: inline-flex !important;
+}
+@media(max-width:767.98px){
+  .main-news__sub-title span {
+    display: none !important;
+  }
+  .title-80 {
+    font-size: 28px !important;
+    letter-spacing: -0.84px !important;
+  }
+}
+
+
+.title-80 {
+  color:  #FFF;
+  font-family: "Kumbh Sans" !important;
+  font-size: 80px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 130% !important; /* 104px */
+  letter-spacing: -2.4px !important;
 }
