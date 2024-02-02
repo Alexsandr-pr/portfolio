@@ -1,0 +1,409 @@
+{
+    "card1":[
+        {
+            "id": 1,
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "id": 2,
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "id": 3,
+            "img": "greanshop/img/main/main-block/card-item/image3.jpg",
+            "name": "African Violet",
+            "price": 199.00
+        },
+        {
+            "id": 4,
+            "img": "'greanshop/img/main/main-block/card-item/image4.jpg'",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image5.jpg'",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image6.jpg'",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image7.jpg'",
+            "name": "Bird's Nest Fern",
+            "price": 199.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image8.jpg'",
+            "name": "Broadleaf Lady Palm",
+            "price": 159.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image9.jpg'",
+            "name": "Chinese Evergreen",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image3.jpg'",
+            "name": "African Violet",
+            "price": 199.00
+        }
+    ],
+    "card2":[
+        {
+            "id": 1,
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "id": 2,
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "id": 3,
+            "img": "greanshop/img/main/main-block/card-item/image3.jpg",
+            "name": "African Violet",
+            "price": 199.00
+        },
+        {
+            "id": 4,
+            "img": "'greanshop/img/main/main-block/card-item/image4.jpg'",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image5.jpg'",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image6.jpg'",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image7.jpg'",
+            "name": "Bird's Nest Fern",
+            "price": 199.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image8.jpg'",
+            "name": "Broadleaf Lady Palm",
+            "price": 159.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image9.jpg'",
+            "name": "Chinese Evergreen",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image3.jpg'",
+            "name": "African Violet",
+            "price": 199.00
+        }
+    ],
+    "card3":[
+        {
+            "id": 1,
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "id": 2,
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "id": 3,
+            "img": "greanshop/img/main/main-block/card-item/image3.jpg",
+            "name": "African Violet",
+            "price": 199.00
+        },
+        {
+            "id": 4,
+            "img": "'greanshop/img/main/main-block/card-item/image4.jpg'",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image5.jpg'",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image6.jpg'",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image7.jpg'",
+            "name": "Bird's Nest Fern",
+            "price": 199.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image8.jpg'",
+            "name": "Broadleaf Lady Palm",
+            "price": 159.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image9.jpg'",
+            "name": "Chinese Evergreen",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image3.jpg'",
+            "name": "African Violet",
+            "price": 199.00
+        }
+    ],
+    "card4":[
+        {
+            "id": 1,
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "id": 2,
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "id": 3,
+            "img": "greanshop/img/main/main-block/card-item/image3.jpg",
+            "name": "African Violet",
+            "price": 199.00
+        },
+        {
+            "id": 4,
+            "img": "'greanshop/img/main/main-block/card-item/image4.jpg'",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image5.jpg'",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image6.jpg'",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image7.jpg'",
+            "name": "Bird's Nest Fern",
+            "price": 199.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image8.jpg'",
+            "name": "Broadleaf Lady Palm",
+            "price": 159.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image9.jpg'",
+            "name": "Chinese Evergreen",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image3.jpg'",
+            "name": "African Violet",
+            "price": 199.00
+        }
+    ],
+    "card5":[
+        {
+            "id": 1,
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "id": 2,
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "id": 3,
+            "img": "greanshop/img/main/main-block/card-item/image3.jpg",
+            "name": "African Violet",
+            "price": 199.00
+        },
+        {
+            "id": 4,
+            "img": "'greanshop/img/main/main-block/card-item/image4.jpg'",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image5.jpg'",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image6.jpg'",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image7.jpg'",
+            "name": "Bird's Nest Fern",
+            "price": 199.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image8.jpg'",
+            "name": "Broadleaf Lady Palm",
+            "price": 159.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image9.jpg'",
+            "name": "Chinese Evergreen",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image1.jpg",
+            "name": "Barberton Daisy",
+            "price": 119.00
+        },
+        {
+            "img": "greanshop/img/main/main-block/card-item/image2.jpg",
+            "name": "Angel Wing Begonia",
+            "price": 169.00
+        },
+        {
+            "img": "'greanshop/img/main/main-block/card-item/image3.jpg'",
+            "name": "African Violet",
+            "price": 199.00
+        }
+    ],
+
+    "products": [
+        {
+            "img": "greanshop/img/page2/products/image1.jpg",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image2.jpg",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image3.jpg",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image4.jpg",
+            "name": "Bird's Nest Fern",
+            "price": 99.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image5.jpg",
+            "name": "Chinese Evergreen",
+            "price": 39.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image1.jpg",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "greanshop/img/page2/products/image2.jpg",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        }
+    ],
+    "mainBlockSlide":[
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>1",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "greanshop/img/main/main-block/01.png",
+            "imageMobile": "greanshop/img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>2",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "greanshop/img/main/main-block/01.png",
+            "imageMobile": "greanshop/img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>3",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "greanshop/img/main/main-block/01.png",
+            "imageMobile": "greanshop/img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>4",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "greanshop/img/main/main-block/01.png",
+            "imageMobile": "greanshop/img/main/main-block/bg.png",
+            "alt": "Image"
+        }
+    ]
+
+}
