@@ -5259,15 +5259,14 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
-  letter-spacing: -3%;
+  letter-spacing: 0px !important;
   text-align: left;
 }
 .main-news__sub-title h2{
-  white-space: nowrap ;
+  white-space: nowrap;
 }
 .main-news__sub-title  {
-display: inline-flex ;
-
+  display: inline-flex ;
 }
 @media(max-width:1280.98px){
   .main-news__body {
@@ -5280,11 +5279,15 @@ display: inline-flex ;
   .title-80-text {
     font-size: 16px;
   }
+  .main-news__sub-title h2{
+    white-space: wrap;
+  }
 }
 @media(max-width:991.98px){
   .main-news__body {
     padding: 60px 0px ;
   }
+
 }
 
 @media(max-width:767.98px){
